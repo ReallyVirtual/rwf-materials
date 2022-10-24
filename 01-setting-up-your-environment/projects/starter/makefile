@@ -20,7 +20,7 @@ pods-clean:
 
 
 get:
-	flutter pub get
+	flutter pub get ; \
 	for feature in $(FEATURES); do \
 		cd $${feature} ; \
 		echo "Updating dependencies on $${feature}" ; \
